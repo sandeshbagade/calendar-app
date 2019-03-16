@@ -11,5 +11,4 @@ function Card({ children, className, style }) {
 }
 
 Card.propTypes = propTypes
-
 export default Card

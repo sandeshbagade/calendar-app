@@ -53,5 +53,4 @@ class Selectable extends React.Component {
 }
 
 Selectable.propTypes = propTypes
-
 export default Selectable

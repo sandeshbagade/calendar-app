@@ -89,5 +89,4 @@ class Dnd extends React.Component {
     )
   }
 }
-
 export default Dnd

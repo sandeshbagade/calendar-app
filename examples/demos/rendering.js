@@ -55,5 +55,4 @@ let Rendering = ({ localizer }) => (
     }}
   />
 )
-
 export default Rendering

@@ -48,5 +48,4 @@ class Cultures extends React.Component {
     )
   }
 }
-
 export default Cultures

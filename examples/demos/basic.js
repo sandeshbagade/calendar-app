@@ -16,5 +16,4 @@ let Basic = ({ localizer }) => (
     localizer={localizer}
   />
 )
-
 export default Basic

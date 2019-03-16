@@ -61,5 +61,4 @@ let CustomView = ({ localizer }) => (
     />
   </React.Fragment>
 )
-
 export default CustomView

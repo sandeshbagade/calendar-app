@@ -56,5 +56,4 @@ let Resource = ({ localizer }) => (
     />
   </>
 )
-
 export default Resource

@@ -1,6 +1,5 @@
 import React from 'react'
 import transform from 'lodash/transform'
-
 import metadata from 'component-metadata-loader!react-big-calendar/lib/Calendar'
 
 function displayObj(obj) {

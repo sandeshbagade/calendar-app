@@ -12,5 +12,4 @@ let Timeslots = ({ localizer }) => (
     defaultDate={new Date(2015, 3, 12)}
   />
 )
-
 export default Timeslots

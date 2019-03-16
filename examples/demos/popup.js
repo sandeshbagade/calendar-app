@@ -19,5 +19,4 @@ let Popup = ({ localizer }) => (
     />
   </React.Fragment>
 )
-
 export default Popup

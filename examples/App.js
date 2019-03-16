@@ -82,13 +82,6 @@ class Example extends React.Component {
 
     return (
       <div className="app">
-        <div className="jumbotron">
-          <div className="container">
-            <h3>
-              Replicate Google Calendar <i className="fa fa-calendar" />
-            </h3>
-          </div>
-        </div>
         <div className="examples">
           <Card className="examples--header">
             <Layout
@@ -103,6 +96,9 @@ class Example extends React.Component {
                     {' source code on github'}
                   </strong>
                 </a>
+              </div>
+              <div>
+                Replicate Google Calendar <i className="fa fa-calendar" />
               </div>
               <Dropdown
                 pullRight
