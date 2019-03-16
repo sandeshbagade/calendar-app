@@ -90,14 +90,17 @@ class Example extends React.Component {
               style={{ marginBottom: 15 }}
             >
               <div className="examples--view-source">
-                <a target="_blank" href="https://github.com/sandeshbagade">
+                <a
+                  target="_blank"
+                  href="https://github.com/sandeshbagade/calendar-app"
+                >
                   <strong>
                     <i className="fa fa-code" />
                     {' source code on github'}
                   </strong>
                 </a>
               </div>
-              <div>
+              <div className="examples--heading">
                 Replicate Google Calendar <i className="fa fa-calendar" />
               </div>
               <Dropdown

@@ -43,7 +43,7 @@ class Selectable extends React.Component {
           events={this.state.events}
           defaultView={BigCalendar.Views.WEEK}
           scrollToTime={new Date(1970, 1, 1, 6)}
-          defaultDate={new Date(2015, 3, 12)}
+          defaultDate={new Date(2019, 2, 12)}
           onSelectEvent={event => alert(event.title)}
           onSelectSlot={this.handleSelect}
         />

@@ -9,7 +9,8 @@ let Timeslots = ({ localizer }) => (
     timeslots={8}
     localizer={localizer}
     defaultView={BigCalendar.Views.WEEK}
-    defaultDate={new Date(2015, 3, 12)}
+    //defaultDate={new Date(2019, 2, 16)}
+    defaultDate={new Date(2019, 2, 16)}
   />
 )
 export default Timeslots

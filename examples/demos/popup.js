@@ -15,7 +15,7 @@ let Popup = ({ localizer }) => (
       popup
       events={events}
       localizer={localizer}
-      defaultDate={new Date(2015, 3, 1)}
+      defaultDate={new Date(2019, 2, 1)}
     />
   </React.Fragment>
 )

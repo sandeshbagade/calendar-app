@@ -41,7 +41,7 @@ class Cultures extends React.Component {
           rtl={rtl}
           events={events}
           culture={this.state.culture}
-          defaultDate={new Date(2015, 3, 1)}
+          defaultDate={new Date(2019, 2, 1)}
           localizer={localizer}
         />
       </React.Fragment>
