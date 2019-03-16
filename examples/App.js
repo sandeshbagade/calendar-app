@@ -84,26 +84,9 @@ class Example extends React.Component {
       <div className="app">
         <div className="jumbotron">
           <div className="container">
-            <h1>
-              Big Calendar <i className="fa fa-calendar" />
-            </h1>
-            <p>such enterprise, very business.</p>
-            <p>
-              <a href="#intro">
-                <i className="fa fa-play" /> Getting started
-              </a>
-              {' | '}
-              <a href="#api">
-                <i className="fa fa-book" /> API documentation
-              </a>
-              {' | '}
-              <a
-                target="_blank"
-                href="https://github.com/intljusticemission/react-big-calendar"
-              >
-                <i className="fa fa-github" /> github
-              </a>
-            </p>
+            <h3>
+              Replicate Google Calendar <i className="fa fa-calendar" />
+            </h3>
           </div>
         </div>
         <div className="examples">
@@ -114,10 +97,10 @@ class Example extends React.Component {
               style={{ marginBottom: 15 }}
             >
               <div className="examples--view-source">
-                <a target="_blank" href={demoRoot + '/' + selected + '.js'}>
+                <a target="_blank" href="https://github.com/sandeshbagade">
                   <strong>
                     <i className="fa fa-code" />
-                    {' View example source code'}
+                    {' source code on github'}
                   </strong>
                 </a>
               </div>
@@ -148,12 +131,6 @@ class Example extends React.Component {
           <div className="example">
             <Current localizer={globalizeLocalizer} />
           </div>
-        </div>
-        <div className="docs">
-          <div className="contain section">
-            <Intro />
-          </div>
-          <Api className="contain section" />
         </div>
       </div>
     )
